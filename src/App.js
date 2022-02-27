@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "./styles.css";
 const App = () => {
   let time = new Date().toLocaleTimeString();
 
@@ -14,6 +14,7 @@ const App = () => {
 
   return (
     <>
+      <h2 className="h22">Digital Clock with React Hook(Usestate)</h2>
       <h1>{etime}</h1>
     </>
   );

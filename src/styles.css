@@ -1,4 +1,8 @@
-.App {
-  font-family: sans-serif;
+* {
+  background-color: bisque;
   text-align: center;
+}
+
+.h22 {
+  color: aliceblue;
 }
